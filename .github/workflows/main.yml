@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-     PUBLISH_FOLDER: TableTennis/TableTennis/bin/Release/net8.0/publish/wwwroot
+     PUBLISH_FOLDER: TableTennis/bin/Release/net8.0/publish/wwwroot
 
     name: Build and Deploy Job
     steps:
@@ -41,4 +41,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-            folder: /${{ env.PUBLISH_FOLDER }}
+            folder: $GITHUB_WORKSPACE/$PUBLISH_FOLDER
