@@ -43,7 +43,7 @@ jobs:
       #  with:
       #      folder: /${{ env.PUBLISH_FOLDER }}
       
-        - name: Deploy GitHub Pages action
+      - name: Deploy GitHub Pages action
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
