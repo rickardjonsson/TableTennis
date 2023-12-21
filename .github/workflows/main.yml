@@ -26,7 +26,7 @@ jobs:
    
       - name: Dotnet Publish
         run: 
-            dotnet publish  --configuration Release
+            dotnet publish --configuration Release
 
       - name: Change base-tag in index.html to repo name
         run: sed -i 's/<base href="\/" \/>/<base href="\/${{ env.REPO_NAME }}\/" \/>/g' $GITHUB_WORKSPACE/$PUBLISH_FOLDER/index.html
@@ -41,4 +41,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-            folder: $GITHUB_WORKSPACE/$PUBLISH_FOLDER
+            folder: TableTennis/bin/Release/net8.0/publish/wwwroot
