@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TableTennis",
   "resources": {
-    "hash": "sha256-v96RA9TfKTWI2wvcDIHga+ig22Ou3CJlhcVNGWT+lpA=",
+    "hash": "sha256-62/wvaUer+L4KO9KqNxWmHtEOIHlnAmq5cG2XbzvtcY=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.45ykigla5r.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -48,7 +48,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-PPjgJMbaJy7HmAFbiVQDmuLd+9vm5X5Uxk2KptWctx4=",
       "System.Text.Json.wasm": "sha256-bYSMRA2prb9VQgWRPvZYl9lN9FU4qKdNig7DMQA4fJs=",
       "System.Text.RegularExpressions.wasm": "sha256-3TnJ+gFbcLQWd64dQi9CTds871jRDrawlfFObiJJADY=",
-      "TableTennis.wasm": "sha256-6zW69dnGFaSJZOX6pewCwwBjsGiSo5zL92Yq4rUKJ4Q="
+      "TableTennis.wasm": "sha256-GBx+yd849IhMjnRAHt6K8nlnSafqq1j3PRa5xPiH53o="
     }
   },
   "cacheBootResources": true,
